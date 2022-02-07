@@ -1,0 +1,206 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.blue-blank{
+    background-color:#3b5c91;
+    height: 35px;
+    width: 50px;
+}
+ul{
+    list-style-type: none;
+	font-size:12px;
+}
+ul li{
+    display: inline-block;
+	text-align:left;
+}
+.img-logo{
+    border-bottom: 3px solid #3b5c91;
+}
+.menu-first{
+    float:left;
+    margin:8px;
+   
+}
+.menu-second{
+	margin-top:40px;
+	margin-bottom:40px;
+	 float:right;
+	 font-size:14px;
+}
+li a{
+    margin: 10px 10px 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-lower{
+    border-bottom: 3px solid #ffc107;
+}
+
+.header-upper{
+	border-bottom:1px solid #F2F2F2;
+}
+.header-second{
+margin-top:20px;
+margin-bottom:20px;	
+}
+.overview{
+	margin-bottom:10px;
+	margin-top:10px;
+	
+}
+p{
+	text-align:justify;
+	font-size:15px;
+}
+.list-group li{
+	font:bold 15px Arial;
+	
+	 border-bottom:1px solid #c0c0c0;
+	   line-height: 2.8;
+	    
+}
+.footer-links{
+	margin-top:50px;
+	margin-bottom:30px;
+	border-top:1px solid #c0c0c0;
+	border-bottom:1px solid #c0c0c0;
+	font-size:14px;
+}
+.links{
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:left;
+	font-weight:bold;
+}
+p.b{
+	font-size:12px;
+	
+}
+.fa {
+  padding: 7px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border-radius: 50%;
+}
+
+#slideshow-container {
+  
+  position: relative;
+  margin: auto;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.item {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.intake{
+height:430px;
+margin:80px;
+}
+.btn {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+#header {
+    padding: 30px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+
